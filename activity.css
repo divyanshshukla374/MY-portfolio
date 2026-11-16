@@ -1,0 +1,91 @@
+html {
+  background-color: #2c2c2c;
+  color: white;
+}
+.wave {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 5%;
+}
+.Highlight {
+  color: #eee3b0;
+}
+.waveplus {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 0;
+}
+.waveplus a,
+.waveplus a:visited {
+  color: #668b83;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 96px;
+  height: 40px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border: 1px solid #668b83;
+  border-radius: 6px;
+  background-color: #333;
+}
+.waveplus a h4 {
+  margin: 0;
+  color: inherit;
+}
+.waveplus a:hover {
+  color: #eee3b0;
+  border-color: #eee3b0;
+}
+.waveplus a:active,
+.waveplus a.current {
+  color: red;
+  border-color: red;
+}
+.skill {
+  color: #668b83;
+  margin: 4% 5% 0;
+  font-size: 22px;
+  text-align: right;
+  font-family: "Eater", serif;
+}
+.visible {
+  margin: 24px 5%;
+}
+.visible > h1 {
+  margin: 0 0 16px;
+}
+.skill-intro {
+  margin: 0 0 24px;
+  color: #bfc6c4;
+}
+.skill-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #668b83;
+  border-radius: 12px;
+  background-color: #333;
+}
+.skill-section h2 {
+  margin: 0 0 16px;
+  color: #eee3b0;
+}
+.same {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.skill-item {
+  box-sizing: border-box;
+  min-width: 140px;
+  margin: 0;
+  padding: 10px 14px;
+  border: 1px solid #668b83;
+  border-radius: 8px;
+  background-color: #2c2c2c;
+  color: #bfc6c4;
+  text-align: center;
+}
